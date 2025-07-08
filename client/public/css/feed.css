@@ -31,9 +31,18 @@ footer {
 }
 
 #portal_button {
-	position: fixed;
-	right: 30px;
-	top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-right: 20px;
+}
+
+#portal_button img {
+  height: 45px; 
+  width: auto;
+  margin-bottom: 2px;
 }
 
 a {
@@ -57,3 +66,4 @@ a {
 	max-width: 150px;
 	max-height: 150px;
 }
+
