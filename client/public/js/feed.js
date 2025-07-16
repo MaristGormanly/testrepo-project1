@@ -18,6 +18,12 @@ document.addEventListener("DOMContentLoaded", function () {
     this.imageUrl = imageUrl;
   }
 
+/*
+let feeditem1 = { title:"campus news", body: "Moijuhgfhyvuybih"}
+
+const currentStories = [feeditem1, feeditem2, feeditem3];
+*/
+
   // 3. Sample stories - Made using AI
   const currentStories = [
     new FeedItem(
